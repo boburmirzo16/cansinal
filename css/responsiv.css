@@ -1,0 +1,12 @@
+@media only screen and (max-width:768px) {
+  .navbar__nav a{
+      display: none;
+  }
+  .banner .banner__content, .courses__content, .footer__content, .about__content, .blog__content, .testimonial__content, .map__content{
+      display: grid;
+      grid-template-columns:1fr;
+  }
+}   
+.map__content .map__item iframe{
+  height: 50vh;
+}
